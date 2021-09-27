@@ -3,7 +3,10 @@ This repository contains materials for the HLA Data Analysis Workshop at the 202
 
 These materials consist of a 'toy' dataset for data analysis (ASHItoy.txt) and an R script (ASHI.R) for use in the workshop. 
 
-To download these files, right-click on the name of each file above, and select 'Download'. Make a new folder called "ASHI2021" in your Documents folder, and download these files into the "Documents/ASHI2021" folder.
+To use these files, first make a new folder called "ASHI2021" in your Documents folder. Then do the following:
+- Click the green **Code** button above, and click 'Download ZIP'.
+- Unzip the "ASHI2021Workshop-main.zip" file in your Downloads folder (either by double-clicking it, or by right-clicking, depending on your sustem). This will create a new folder called "ASHI2021Workshop-main" in your Downloads folder. 
+- Move the ASHItoy.txt and ASHI.R files in  theDownloads/ASHI2021Workshop-main folder to your Documents/ASHI2021 folder.
 
 To use these files, Workshop participants should have *R*, *Rstudio*, and *BIGDAWG* installed on their machines. 
 
