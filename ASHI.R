@@ -17,6 +17,7 @@ corrDR<-length(Locus_ORmain[Locus_ORmain$Locus=="DRB1",1])-1
 correct<-corrA+corrB+corrDR
 Locus_ORmain$p_corr<-Locus_ORmain$p.value*correct
 Locus_ORmain$sig_corr<-ifelse(Locus_ORmain$p_corr<0.05,"*","NS")
+
 ###one-field results
 BIGDAWG("ASHItoy.txt", Run.Tests = "L", Trim = TRUE, Res = 1,Results.Dir = "~/Documents/ASHI2021/ASHI1fieldres")
 
@@ -35,4 +36,7 @@ Locus_OR1field$sig_corr<-ifelse(Locus_OR1field$p_corr<0.05,"*","NS")
 ###DR-DQ haplotypes
 BIGDAWG("ASHItoy.txt", Run.Tests = "H",Loci.Set = list(c("DRB1","DQB1")), Results.Dir = "~/Documents/ASHI2021/ASHIhapres")
 
+###Read in and view DR~DQ haplotype result
+Haplotype_OR <- read.delim("~/Documents/ASHI2021/ASHIhapres/Set1/haplotype_OR.txt", stringsAsFactors=FALSE)
+View(Haplotype_OR)
 
