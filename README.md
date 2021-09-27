@@ -1,4 +1,4 @@
-# ASHI2021Workshop
+# ASHI 2021 HLA Data Analysis for Population Genetic and Disease Association Studies Workshop
 This repository contains materials for the HLA Data Analysis Workshop at the 2021 ASHI Meeting.
 
 These materials consist of a 'toy' dataset for data analysis (ASHItoy.txt) and an R script (ASHI.R) for use in the workshop. 
