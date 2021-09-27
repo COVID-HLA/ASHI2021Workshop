@@ -18,7 +18,7 @@ Once Rstudio has been installed, open Rstudio (by double clicking the icon).
 
 Install BIGDAWG in the Rstudio environment by doing the following:
 - Go to the Tools pulldown menu, and select "Install Packages ...".
-- In the popup window, select "Repository (CRAN)" in the "Install from:" menu, and enter "BIGDAWG" in the "Packages (separate multiple with space or comma): menu.
+- In the popup window, select "Repository (CRAN)" in the "Install from:" menu, and enter "BIGDAWG" in the "Packages (separate multiple with space or comma):" menu.
 - Click the "**Install**" button.
 
 Installing BIGDAWG will automatically install all of the other R packages that BIGDAWG requires. This may take a few minutes, and may generate a lot of text in your Rstudio console. This is normal.
